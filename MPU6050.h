@@ -1,3 +1,17 @@
+/**
+ * @file MPU6050.cpp
+ * @brief Implementation of the MPU6050 class for interfacing with the MPU6050 accelerometer and gyroscope sensor.
+ * 
+ * This file provides a class implementation for initializing, reading sensor data,
+ * and processing it from the MPU6050 sensor. The class supports basic operations like
+ * angle calculation and complementary filtering.
+ * 
+ * @author Muhammad Haris Mujeeb
+ * @author Dejan, https://howtomechatronics.com
+ * @version 1.0
+ * @date 2024-08-08
+ */
+
 #ifndef IIRFILTER_H
 #define IIRFILTER_H
 
