@@ -12,8 +12,9 @@
  * @date 2024-08-08
  */
 
-#ifndef IIRFILTER_H
-#define IIRFILTER_H
+
+#ifndef MPU6050_H
+#define MPU6050_H
 
 #include <Wire.h>
 
@@ -169,4 +170,4 @@ void MPU6050::complementaryFilterFIR() {
   pitch = GAIN * gyroAngleY + (1-GAIN) * accAngleY;
 }
 
-#endif // IIRFILTER_H
+#endif // MPU6050_H
