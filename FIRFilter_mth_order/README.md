@@ -4,8 +4,8 @@ https://github.com/user-attachments/assets/41df8d0a-4ff4-4dcc-8f6f-39a0ce30f3c7
 
 
 
-## Matlab/Octave Code fir FIR Coefficient:
-Change the FIR filter order/length N to get respective FIR coefficients:
+## Matlab/Octave code finding FIR coefficient:
+Change ' N ' (filter order/length) to get respective FIR coefficients for required size:
 ```octave
 clc
 clear
